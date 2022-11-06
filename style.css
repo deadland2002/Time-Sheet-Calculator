@@ -19,7 +19,7 @@ h1{
 .btn-bottom{
     position: relative;
     box-shadow: 2px 2px 8px -1px #575757;
-	background-color:#adadad;
+	background-color:#ababab;
 	border-radius:5px;
 	border:1px solid #ababab;
 	display:inline-block;
@@ -30,6 +30,11 @@ h1{
 	font-weight:bold;
 	padding:15px 20px;
     margin-right: 10px;
+}
+
+.btn-bottom:hover{
+    background-color: #5c5c5c;
+    transition: .6s;
 }
 
 .btn-bottom span{
